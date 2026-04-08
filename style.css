@@ -1,0 +1,487 @@
+:root {
+  --text: #000000;
+  --text-muted: #555555;
+  --text-light: #888888;
+  --border: #000000;
+  --border-light: #cccccc;
+  --bg: #ffffff;
+  --max-width: 800px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #e8e8e8;
+    --text-muted: #a0a0a0;
+    --text-light: #707070;
+    --border: #e8e8e8;
+    --border-light: #3a3a3a;
+    --bg: #121212;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Charter', 'Georgia', 'Times New Roman', Times, serif;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.cv {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 64px 56px 96px;
+}
+
+/* ============================================
+   Header
+   ============================================ */
+.cv-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  margin-bottom: 36px;
+  padding-bottom: 24px;
+  border-bottom: 2px solid var(--border);
+}
+
+.cv-header-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.cv-header-photo {
+  flex-shrink: 0;
+  width: 110px;
+  height: 135px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+
+.cv-header-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.cv-name {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  margin: 0 0 4px;
+  color: var(--text);
+  line-height: 1.2;
+}
+
+.cv-title {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin: 0 0 14px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.cv-contact {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  color: var(--text);
+  line-height: 1.8;
+}
+
+.cv-contact li {
+  display: block;
+}
+
+.cv-contact a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.cv-contact a:hover {
+  text-decoration: underline;
+}
+
+.cv-status-line {
+  font-size: 13px;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--text-muted);
+  margin: 2px 0 4px;
+}
+
+/* ============================================
+   Sections
+   ============================================ */
+.cv-section {
+  margin-bottom: 32px;
+}
+
+.cv-section h2 {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text);
+  margin: 0 0 14px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--border);
+  font-family: 'Charter', 'Georgia', 'Times New Roman', Times, serif;
+}
+
+/* ============================================
+   Items (Education, Experience, Projects)
+   ============================================ */
+.cv-item {
+  margin-bottom: 18px;
+}
+
+.cv-item:last-child {
+  margin-bottom: 0;
+}
+
+.cv-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 2px;
+}
+
+.cv-item h3 {
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0;
+  color: var(--text);
+}
+
+.cv-item h3 a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.cv-item h3 a:hover {
+  text-decoration: underline;
+}
+
+.cv-location {
+  font-weight: 400;
+  color: var(--text);
+  font-size: 14px;
+  font-style: italic;
+}
+
+.cv-date {
+  font-family: 'Charter', 'Georgia', 'Times New Roman', Times, serif;
+  font-size: 13px;
+  color: var(--text);
+  white-space: nowrap;
+  flex-shrink: 0;
+  font-style: italic;
+}
+
+.cv-subtitle {
+  font-size: 14px;
+  color: var(--text);
+  margin: 0 0 4px;
+  font-style: italic;
+}
+
+.cv-description {
+  font-size: 14px;
+  color: var(--text);
+  margin: 4px 0;
+}
+
+.cv-tech {
+  font-size: 13px;
+  color: var(--text);
+  margin: 4px 0;
+}
+
+.cv-tech span {
+  font-weight: 600;
+}
+
+/* Notion-style bullet points */
+.cv-details {
+  list-style: none;
+  padding: 0;
+  margin: 4px 0 0;
+}
+
+.cv-details li {
+  font-size: 14px;
+  padding-left: 18px;
+  position: relative;
+  margin-bottom: 3px;
+  line-height: 1.55;
+  color: var(--text);
+}
+
+.cv-details li::before {
+  content: '';
+  position: absolute;
+  left: 4px;
+  top: 0.62em;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--text);
+}
+
+/* ============================================
+   About
+   ============================================ */
+.cv-about {
+  margin: 0;
+  line-height: 1.65;
+  font-size: 14px;
+  color: var(--text);
+  text-align: justify;
+}
+
+/* ============================================
+   Skills
+   ============================================ */
+.cv-skills {
+  margin: 0;
+}
+
+.cv-skill-row {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 16px;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.cv-skill-row dt {
+  font-weight: 700;
+  color: var(--text);
+}
+
+.cv-skill-row dd {
+  margin: 0;
+  color: var(--text);
+}
+
+/* ============================================
+   Publications
+   ============================================ */
+.cv-publications {
+  padding-left: 24px;
+  margin: 0;
+  counter-reset: pub-counter;
+  list-style: none;
+}
+
+.cv-publications li {
+  font-size: 14px;
+  margin-bottom: 10px;
+  line-height: 1.55;
+  counter-increment: pub-counter;
+  position: relative;
+}
+
+.cv-publications li::before {
+  content: '[' counter(pub-counter) ']';
+  position: absolute;
+  left: -24px;
+  font-size: 14px;
+  color: var(--text);
+}
+
+.cv-pub-title {
+  font-weight: 600;
+}
+
+.cv-pub-authors {
+  color: var(--text);
+  display: block;
+}
+
+.cv-pub-date {
+  color: var(--text);
+}
+
+.cv-publications em {
+  color: var(--text);
+}
+
+.cv-publications a {
+  color: var(--text);
+  text-decoration: underline;
+  margin-left: 4px;
+}
+
+/* ============================================
+   Awards
+   ============================================ */
+.cv-awards {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cv-awards li {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 10px;
+  padding-left: 18px;
+  position: relative;
+}
+
+.cv-awards li::before {
+  content: '';
+  position: absolute;
+  left: 4px;
+  top: 0.62em;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--text);
+}
+
+.cv-award-main {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.cv-award-title {
+  font-weight: 700;
+  color: var(--text);
+}
+
+.cv-award-rank {
+  color: var(--text);
+  font-weight: 400;
+  font-style: italic;
+}
+
+.cv-award-issuer {
+  color: var(--text);
+  font-size: 13px;
+}
+
+.cv-award-note {
+  font-size: 13px;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 2px;
+}
+
+/* ============================================
+   Languages, Activities
+   ============================================ */
+.cv-languages,
+.cv-activities {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cv-languages li,
+.cv-activities li {
+  font-size: 14px;
+  margin-bottom: 4px;
+  padding-left: 18px;
+  position: relative;
+}
+
+.cv-languages li::before,
+.cv-activities li::before {
+  content: '';
+  position: absolute;
+  left: 4px;
+  top: 0.62em;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--text);
+}
+
+.cv-activities li strong {
+  font-weight: 700;
+}
+
+.cv-count {
+  color: var(--text-muted);
+  font-size: 13px;
+  margin-left: 4px;
+}
+
+/* ============================================
+   Footer
+   ============================================ */
+.cv-footer {
+  margin-top: 48px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border-light);
+  text-align: center;
+  font-size: 11px;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.cv-footer a {
+  color: var(--text-muted);
+  text-decoration: underline;
+}
+
+/* ============================================
+   Responsive
+   ============================================ */
+@media (max-width: 720px) {
+  .cv {
+    padding: 40px 28px 64px;
+  }
+
+  .cv-header {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+
+  .cv-header-photo {
+    width: 100px;
+    height: 125px;
+  }
+
+  .cv-name {
+    font-size: 26px;
+  }
+
+  .cv-item-header {
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+  }
+
+  .cv-skill-row {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+}
+
+/* ============================================
+   Print
+   ============================================ */
+@media print {
+  body { font-size: 11pt; background: white; color: black; }
+  .cv { padding: 0; max-width: 100%; }
+  .cv-footer { display: none; }
+  .cv-section { page-break-inside: avoid; }
+  .cv-item { page-break-inside: avoid; }
+}
