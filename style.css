@@ -468,10 +468,44 @@ body {
 /* ============================================
    Print
    ============================================ */
+@page {
+  size: A4;
+  margin: 14mm 16mm;
+}
+
 @media print {
-  body { font-size: 11pt; background: white; color: black; }
-  .cv { padding: 0; max-width: 100%; }
+  html, body {
+    background: white !important;
+    color: black !important;
+    font-size: 10.5pt;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .cv {
+    padding: 0;
+    max-width: 100%;
+  }
+  .cv-header {
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+  }
+  .cv-header-photo {
+    width: 90px;
+    height: 110px;
+  }
+  .cv-name { font-size: 22pt; }
+  .cv-section { margin-bottom: 18px; page-break-inside: auto; }
+  .cv-section h2 {
+    font-size: 12pt;
+    margin-bottom: 10px;
+    page-break-after: avoid;
+  }
+  .cv-item {
+    page-break-inside: avoid;
+    margin-bottom: 12px;
+  }
+  .cv-item h3 { font-size: 11pt; }
+  .cv-details li { font-size: 10pt; margin-bottom: 3px; }
   .cv-footer { display: none; }
-  .cv-section { page-break-inside: avoid; }
-  .cv-item { page-break-inside: avoid; }
+  a { color: black !important; text-decoration: none !important; }
 }
