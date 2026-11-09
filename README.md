@@ -1,29 +1,29 @@
 # Jaeheon Song — Personal Website
 
-[홈페이지](https://dreameerbb.github.io/) · [CV](https://dreameerbb.github.io/cv/) · [Notes](https://dreameerbb.github.io/blog/)
+[Homepage](https://dreameerbb.github.io/) · [CV](https://dreameerbb.github.io/cv/) · [Notes](https://dreameerbb.github.io/blog/)
 
-연구·프로젝트·경력과 개인적인 글을 모은 홈페이지입니다. 이 저장소는 GitHub Pages에서 제공하는 정적 배포 파일을 보관합니다.
+Research, projects, experience, and personal writing. This repository contains the static website served by GitHub Pages.
 
-## 파일 구성
+## Repository structure
 
-| 경로 | 용도 |
+| Path | Purpose |
 | --- | --- |
-| `docs/` | GitHub Pages가 제공하는 정적 홈페이지 |
-| `docs/index.html` | 홈페이지 |
-| `docs/cv/`, `docs/blog/` | CV와 공개 발행된 글 |
-| `docs/_next/` | JavaScript·CSS·폰트 |
-| `docs/images/`, `docs/published-assets/` | 이미지와 공개 첨부 파일 |
-| `docs/404.html`, `docs/404/` | 오류 페이지 |
-| `docs/robots.txt`, `docs/sitemap.xml` | 검색 엔진 안내 |
-| `docs/index.txt`, 각 페이지의 `index.txt` | Next.js의 페이지 이동 데이터 |
-| `docs/.nojekyll` | `_next/` 파일을 GitHub Pages에서 그대로 제공 |
-| `docs/_publication.json` | 자동 배포 완료 확인 |
-| `.gitattributes` | GitHub 변경 화면에서 자동 생성 파일 구분 |
+| `docs/` | Static website served by GitHub Pages |
+| `docs/index.html` | Homepage |
+| `docs/cv/`, `docs/blog/` | CV and publicly published notes |
+| `docs/_next/` | JavaScript, CSS, and fonts |
+| `docs/images/`, `docs/published-assets/` | Images and public attachments |
+| `docs/404.html`, `docs/404/` | Error pages |
+| `docs/robots.txt`, `docs/sitemap.xml` | Search engine metadata |
+| `docs/index.txt`, page-level `index.txt` files | Next.js navigation data |
+| `docs/.nojekyll` | Preserves `_next/` files on GitHub Pages |
+| `docs/_publication.json` | Automatic deployment verification |
+| `.gitattributes` | Marks generated files in GitHub diffs |
 
-Pages는 `main` 브랜치의 `/docs`를 제공합니다. `docs/` 내부 파일은 자동 생성되며 페이지 이동·수식·이미지 표시 등에 사용됩니다.
+GitHub Pages serves `/docs` from the `main` branch. Files inside `docs/` are generated and support navigation, equations, and images.
 
-## 업데이트
+## Updates
 
-콘텐츠와 디자인은 [portfolio-manager](https://github.com/dreameerbb/portfolio-manager)에서 관리합니다. 관리자에서 공개 내용을 저장하면 정적 파일 생성과 GitHub push를 거쳐 Pages에 자동 배포됩니다. 관리자 기능·DB·초안·비공개 글·열람 허용 이메일은 이 공개 저장소에 배포하지 않습니다. 비공개 글 열람에는 별도 인증 서비스 연결과 글별 이메일 허용이 필요합니다.
+Content and design are managed in [portfolio-manager](https://github.com/dreameerbb/portfolio-manager). Saving public changes automatically builds the website, pushes the generated files to GitHub, and deploys them to Pages. Administrative tools, databases, drafts, private notes, and reader email lists are excluded from this public repository. Private notes require a separate authentication service and authorization for each note.
 
-배포 파일을 직접 수정하면 다음 자동 발행 때 덮어씁니다. 수정은 원본 프로젝트에서 진행하세요. 이 README와 `.gitattributes`도 원본의 `homepage/publishing/`에서 관리합니다.
+Changes made directly to generated files are overwritten by the next publication. Edit the source project instead. This README and `.gitattributes` are maintained in `homepage/publishing/` in the source project.
