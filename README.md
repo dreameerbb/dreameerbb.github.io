@@ -10,7 +10,7 @@
 | --- | --- |
 | `docs/` | GitHub Pages가 제공하는 정적 홈페이지 |
 | `docs/index.html` | 홈페이지 |
-| `docs/cv/`, `docs/blog/` | CV와 발행된 글 |
+| `docs/cv/`, `docs/blog/` | CV와 공개 발행된 글 |
 | `docs/_next/` | JavaScript·CSS·폰트 |
 | `docs/images/`, `docs/published-assets/` | 이미지와 공개 첨부 파일 |
 | `docs/404.html`, `docs/404/` | 오류 페이지 |
@@ -24,6 +24,6 @@ Pages는 `main` 브랜치의 `/docs`를 제공합니다. `docs/` 내부 파일�
 
 ## 업데이트
 
-콘텐츠와 디자인은 [portfolio-manager](https://github.com/dreameerbb/portfolio-manager)에서 관리합니다. 관리자에서 공개 내용을 저장하면 정적 파일 생성과 GitHub push를 거쳐 Pages에 자동 배포됩니다. 관리자 기능·DB·초안은 배포하지 않습니다.
+콘텐츠와 디자인은 [portfolio-manager](https://github.com/dreameerbb/portfolio-manager)에서 관리합니다. 관리자에서 공개 내용을 저장하면 정적 파일 생성과 GitHub push를 거쳐 Pages에 자동 배포됩니다. 관리자 기능·DB·초안·비공개 글·열람 허용 이메일은 이 공개 저장소에 배포하지 않습니다. 비공개 글 열람에는 별도 인증 서비스 연결과 글별 이메일 허용이 필요합니다.
 
 배포 파일을 직접 수정하면 다음 자동 발행 때 덮어씁니다. 수정은 원본 프로젝트에서 진행하세요. 이 README와 `.gitattributes`도 원본의 `homepage/publishing/`에서 관리합니다.
