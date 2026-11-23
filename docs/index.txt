@@ -11,7 +11,7 @@ e:"$Sreact.suspense"
 10:I[4431,[],""]
 :HL["/_next/static/css/05eaf7c0f0bf9f6a.css","style"]
 :HL["/_next/static/css/9fe447d1683c3db8.css","style"]
-0:{"P":null,"b":"31c596194a368e5b3e97a1e79a660961967e6a44cecacce07cabd728c742ea25","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/05eaf7c0f0bf9f6a.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/9fe447d1683c3db8.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$3","errorStyles":[],"errorScripts":[],"template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"wrap main","children":[["$","h1",null,{"children":"Page not found"}],["$","p",null,{"className":"empty","children":"This page is unavailable or has moved."}],["$","$L5",null,{"href":"/","children":"Back to home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":["$L8",["$","$L9",null,{"promise":"$@a"}]]}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lb",null,{"children":"$Lc"}],null],["$","$Ld",null,{"children":["$","div",null,{"hidden":true,"children":["$","$e",null,{"fallback":null,"children":"$Lf"}]}]}]]}],false]],"m":"$undefined","G":["$10",[]],"s":false,"S":true}
+0:{"P":null,"b":"7943f2f9dbf26a89b5b26d71bd608239b3a7f4a213c43befb863d4f1f586e34c","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/05eaf7c0f0bf9f6a.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/9fe447d1683c3db8.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$3","errorStyles":[],"errorScripts":[],"template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"wrap main","children":[["$","h1",null,{"children":"Page not found"}],["$","p",null,{"className":"empty","children":"This page is unavailable or has moved."}],["$","$L5",null,{"href":"/","children":"Back to home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":["$L8",["$","$L9",null,{"promise":"$@a"}]]}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lb",null,{"children":"$Lc"}],null],["$","$Ld",null,{"children":["$","div",null,{"hidden":true,"children":["$","$e",null,{"fallback":null,"children":"$Lf"}]}]}]]}],false]],"m":"$undefined","G":["$10",[]],"s":false,"S":true}
 11:I[190,["664","static/chunks/664-6d821dc1aacb6b48.js","536","static/chunks/536-0e94a08abcd8ee40.js","906","static/chunks/906-b367b51e39088cdf.js","974","static/chunks/app/page-c68f7058d8da209c.js"],"EditableSidebar"]
 12:I[190,["664","static/chunks/664-6d821dc1aacb6b48.js","536","static/chunks/536-0e94a08abcd8ee40.js","906","static/chunks/906-b367b51e39088cdf.js","974","static/chunks/app/page-c68f7058d8da209c.js"],"EditableText"]
 13:I[5444,["664","static/chunks/664-6d821dc1aacb6b48.js","536","static/chunks/536-0e94a08abcd8ee40.js","906","static/chunks/906-b367b51e39088cdf.js","974","static/chunks/app/page-c68f7058d8da209c.js"],"ResearchBackground"]
@@ -180,7 +180,7 @@ e:"$Sreact.suspense"
 우리가 수없이 삶에 대해 복기하고, 사유하는 이유는 선택의 역설에 있다. 그렇다면 처음부터 최선의 선택이 정해져 있는 것은 아니며, 자신이 그 선택을 최선으로 만들어 나가는 것임을 인정하는 태도가 결국 궁극의 철학이 될 것이다.
 
 끊임없이 사유하되, 선택의 역설의 존재를 분명히 인지하고 있다면, 우리는 분명 만족스러운 삶을 살아나갈 수 있지 않을까?
-17:T1dd8,내가 지식을 습득할 때, 연구할 때, 협업할 때 가장 필요한 능력이 뭘까?
+17:T1e43,내가 지식을 습득할 때, 문제를 해결할 때, 다른 사람들과 협업할 때에 가장 필요한 능력이 뭘까?
 
 열심히 배우려는 의지? 꾸준한 끈기와 나에 대한 믿음? 새로운 관점이나 트렌드에 defensive하지 않게 받아들이는 수용적 태도?
 
@@ -194,11 +194,7 @@ e:"$Sreact.suspense"
 
 하지만 다이나믹한 변화의 시대에서 내가 갖춰야 할 메타적인 능력은 더 general하게 바라보고 싶다. 특정 분야에 한정되지 않고, 다양한 분야에 통용될 수 있는 능력을 갖추려는 것이다.
 
-메타 인지란 본래 자신을 파악하고 객관적으로 분석하여 더 높은 시각에서 볼 수 있는 능력이었다. 내가 갖추고 싶은 메타 인지는 개인에 국한되지 않는다. 사회와 연구 도메인의 동향과 발전 방향을 정확하게 인지하고, 그 안에서 내가 뭘 할 수 있는지를 분석하는 것까지 포함한다. 나는 이것이 완전한 메타 인지에 가깝다고 생각한다.
-
-가령, 내 연구에서는 단순히 AI 모델의 성능을 올리거나 메서드를 찾는 것만으로는 부족하다.
-
-향후 몇 년 동안 유효할 강력한 메서드/analysis를 내 연구의 contribution으로 낼 수 없다면, 나는 빅테크/공룡 기업의 흐름을 이겨내기 어려울 것이다. 내가 어떤 방향으로 연구해야 하는지 판단하지 못한다면, 메타 인지가 부족한 경우라고 볼 수 있겠다.
+메타 인지란 본래 자신을 파악하고 객관적으로 분석하여 더 높은 시각에서 볼 수 있는 능력이었다. 내가 갖추고 싶은 메타 인지는 개인에 국한되지 않는다. 사회와 연구 도메인의 동향, 발전 방향을 정확하게 인지하고, 그 안에서 내가 뭘 할 수 있는지를 분석하는 것까지 포함한다. 나는 이것이 완전한 메타 인지에 가깝다고 생각한다.
 
 그렇다면 내가 갖춰야 할 메타적인 능력은 구체적으로 무엇일까?
 
@@ -208,19 +204,17 @@ e:"$Sreact.suspense"
 
 system적 사고란 문제를 하나의 system으로 볼 수 있는 능력이다. 여기서 모든 process가 결국 하나의 meta system으로 귀결된다는 점이 재미있다.
 
-가령 world model을 다루든 LLM을 다루든 <주어진 형식의 입력 - 내부 프로세스 - 출력값>의 포맷은 변하지 않는다.
+가령 인공지능 모델을 다룬다면, 어떤 모달리티를 다루던, <주어진 형식의 입력 - 내부 프로세스 - 출력값>의 포맷은 변하지 않는다.
 
 복잡한 문제를 풀 때에도 optimal한 경로를 따라간다면 결국 문제를 분해하고, 분석하고, 해결하고, 조합하는 과정은 domain agnostic하다고 볼 수 있겠다.
 
-이 과정을 이해하고 하나의 시스템으로 분석한 후 모든 문제에 대해 동일한 시스템을 적용할 수 있도록 해야 한다.
-
-이를 위해서는 task(system)을 이해하고 분해한 뒤, 수정하고 적용할 수 있는 능력이 선행되어야 할 것이다.
+이 과정을 이해하고 하나의 시스템으로 이해한 후 모든 문제에 대해 동일한 시스템을 적용할 수 있도록 해야 한다.
 
 ### 2. Communication 능력
 
 agent 시대가 되면서 굉장히 많은 인력이 하나의 scalable한 task에 투입되는 경우가 일상이 되었다.
 
-이 과정에서 agent를 활용하여 한 사람이 하루에 할 수 있는 일의 양이 폭발적으로 늘어나고, 그에 따라 각자의 context도 매일 쌓인다.
+이 과정에서 agent를 활용하여 한 사람이 하루에 할 수 있는 일의 양이 폭발적으로 늘어나고, 그에 따라 각자의 context도 매일 방대하게 쌓인다.
 
 이 때문에 같은 task를 진행하는 사람들끼리 consensus를 맞추고, 공통된 목표에서 틀어지지 않도록 수시로 align하는 과정이 필요하다.
 
@@ -228,11 +222,15 @@ agent 시대가 되면서 굉장히 많은 인력이 하나의 scalable한 task�
 
 즉, 다른 사람들에게 나의 프로세스를 전달할 때에는 짧게, 결론부터 말할 수 있어야 한다.
 
-방법론
+효율적인 communication 방법
 
 * 두괄식 화법
 
 * Coarse-to-fine 화법
+
+  * 누군가에게 내가 어떤 것을 설명하고 싶다면, **큰 그림**을 먼저 그려야 한다.
+
+  * 상대의 이해도를 체크하면서, 내가 꼭 설명해야 하는 것이 무엇인지 파악한 후, 설명에 대한 전체적인 그림을 그려야 한다.
 
 > 개인이 팀에서 drift하는 정도 ≈ task complexity × task를 푸는 데 걸리는 시간 ÷ team과의 discussion 횟수
 
@@ -242,7 +240,9 @@ agent 시대가 되면서 굉장히 많은 인력이 하나의 scalable한 task�
 
 이를 위해서는 에이전트가 할 일과 우리가 할 일을 명확하게 나눌 수 있어야 한다. 이를 agent native라고 하는데, agent가 할 일의 순서와 범위를 정하고, 그 안에서 내가 반드시 해야 할 일들만 구분해 수행할 수 있어야 한다.
 
-이것이 가능한 사람은 리소스를 최적으로 분배할 수 있어 생산성이 크게 늘어난다.
+에이전트가 생산성을 극대화할 수 있는 지금, 우리는 ideation에 최대한의 시간을 쏟아야 한다. 목표를 정하고, 목표까지의 trajactory를 세세하게 구성한 후, 내가 원하는 방향으로 작업이 진행될 수 있도록 잘 파일럿해야 한다는 것이다. 이후, 구현(implement of ideation)을 에이전트에게 시키는 것이다.
+
+여기서 중요한 것은, 내가 implement라고 생각했던 일의 범위가 사실은 ideation일 수 있다는 것이다. 이 과정을 혼동한다면, 결국 내 작업을 완전히 컨트롤할 수 없게 되는 상황에 이르러, 결국에는 큰 비용 손실이 발생할 수 있다.
 
 ### 4. Self-Awareness
 
@@ -260,13 +260,9 @@ agent 시대가 되면서 굉장히 많은 인력이 하나의 scalable한 task�
 
 우리가 어떤 지식을 알고 있다고 가정하자. 그것을 실행에 옮기는 것은 별개의 문제이다.
 
-단적으로, 우리는 운동을 하고 식단 관리를 하면 몸이 좋아진다는 것을 알고 있다. 하지만 실천에 옮기는 사람은 극히 드물다.
+나는 어떻게 소통하면 효율적이고, 어떤 발표가 깔끔한 발표인지 알고 있다. 하지만, 실시간으로 소통할 때에 최적의 소통 방식을 선택하고, 깔끔한 발표를 구성한다는 것은 굉장히 어려운 일이다.
 
-우리에게 연구/개발 아이디어가 있다고 해 보자. AI를 활용해 기술적인 구현 부담을 줄일 수 있다면, 무엇을 만들고 왜 만들어야 하는지를 판단하는 아이디어의 중요성은 더 커질 것이다.
-
-또한, 메타적인 지식을 실제 판단과 행동으로 옮기는 일은 스스로 해야 한다.
-
-나조차 위에 적힌 내용들을 끊임없이 복기하지 않으면 잊어버리고, 실행에 옮기기 어렵다.
+내가 어떤 지식을 알고 있는 것과, 실제로 체화시킬 수 있는 것은 엄연히 다른 차원의 state이다.
 
 2. Unknowing - Knowing gap
 
@@ -296,8 +292,8 @@ agent 시대가 되면서 굉장히 많은 인력이 하나의 scalable한 task�
 
 메타적인 능력을 깎아 나가는 것은 끝나지 않는 나의 과업일 것이다.
 
-이 능력들은 지식과 경험으로 이루어지는 것이 아니라, 반복과 태도를 통해 자신을 서서히 물들여 가는 과정에서 비롯된다.
-6:["$","div",null,{"className":"shell","style":{"--bg":"#f3f3f0","--fg":"#111111","--sidebar-width":"248px","--content-width":"992px"},"children":[["$","a",null,{"className":"skip","href":"#main-content","children":"Skip to main content"}],["$","$L11",null,{"children":[["$","div",null,{"className":"brand","children":[["$","$L5",null,{"href":"/","children":["$","strong",null,{"children":["$","$L12",null,{"field":"site/name","value":"Jaeheon Song","label":"이름","linkLab":false}]}]}],["$","$L12",null,{"field":"site/affiliation","value":"SNUVL","label":"소속"}]]}],["$","nav",null,{"className":"nav","aria-label":"Main navigation","children":["$","ul",null,{"children":[["$","li","home",{"children":["$","$L5",null,{"href":"/","aria-current":"page","children":"Home"}]}],["$","li","cv",{"children":["$","$L5",null,{"href":"/cv","aria-current":"$undefined","children":"CV"}]}],["$","li","blog",{"children":["$","$L5",null,{"href":"/blog","aria-current":"$undefined","children":"Notes"}]}]]}]}],["$","ul",null,{"className":"contacts","aria-label":"Contact links","children":[["$","li","LinkedIn",{"children":["$","a",null,{"href":"https://www.linkedin.com/in/thdwogjs/","className":"$undefined","children":["LinkedIn",["$","svg",null,{"className":"external-link-icon","viewBox":"0 0 16 16","width":"12","height":"12","fill":"none","stroke":"currentColor","strokeWidth":"1.4","aria-hidden":"true","children":["$","path",null,{"d":"M6 3H3v10h10v-3M8 2h6v6M14 2 7 9"}]}]]}]}],["$","li","Email",{"children":["$","a",null,{"href":"mailto:dreameerbb@gmail.com","className":"$undefined","children":["dreameerbb@gmail.com",false]}]}]]}]]}],["$","div",null,{"className":"col","children":[["$","$L13",null,{"interactive":true}],["$","main",null,{"id":"main-content","className":"main","tabIndex":-1,"children":[["$","$L14",null,{"site":{"affiliation":"SNUVL","email":"dreameerbb@gmail.com","github_url":"","introduction":"I am a research intern in Professor Gunhee Kim’s Vision & Learning Lab (SNUVL) at Seoul National University, where I am mentored by Wonkwang Lee. My research focuses on vision-language models and world models. I am particularly interested in how these models learn to understand visual environments and predict how they evolve.\n\nAlongside my research, I share research notes and occasional reflections on life beyond the lab.","layout":{"background":"#f3f3f0","blocks":[{"align":"left","body_size":17,"column":1,"hidden":false,"id":"intro","kind":"intro","label":"Introduction","min_height":0,"padding":0,"span":12,"text":"","title_size":52},{"align":"left","body_size":15,"column":1,"hidden":false,"id":"interests","kind":"interests","label":"Research\ninterests","min_height":0,"padding":0,"span":12,"text":"","title_size":13},{"align":"left","body_size":15,"column":1,"hidden":false,"id":"records","kind":"records","label":"Education & Awards","min_height":0,"padding":0,"span":12,"text":"","title_size":13},{"align":"left","body_size":15,"column":1,"hidden":false,"id":"writing","kind":"writing","label":"Writing","min_height":0,"padding":0,"span":12,"text":"","title_size":13}],"content_width":992,"foreground":"#111111","gap":36,"overrides":{"record/ef365d33-5fd0-4b90-b5c1-fa4463c2f598/description":"GPA: 4.11 / 4.5 · Early graduation"},"sidebar_width":248,"version":1},"name":"Jaeheon Song","research_interests":["Vision-Language Models","World Models"],"role":"SNUVL Intern","scholar_url":"","linkedin_url":"https://www.linkedin.com/in/thdwogjs/"},"featured":[{"id":"educations","title":"Education","entries":[{"id":"ce988a94-b145-431e-a1a3-d20e05725d40","title":"King's College London","subtitle":"Exchange Student, Artificial Intelligence (Completed)","period":"2026-02 – 2026-02","description":"","details":[],"url":"$undefined"},{"id":"ef365d33-5fd0-4b90-b5c1-fa4463c2f598","title":"Korea University","subtitle":"Bachelor in Computer Science and Engineering & Mathematics (Double Major)","period":"2023-03 – 2026-08","description":"GPA: 4.11 / 4.5","details":[],"url":"$undefined"}]},{"id":"awards","title":"Honors & Awards","entries":[{"id":"2a4f5f84-975a-46b1-940a-345891e1b481","title":"KOSCOM AI agent challenge","subtitle":"KOSCOM · Top Excellence Award","period":"2025-12","description":"","details":[],"url":"$undefined"},{"id":"0b7fb36d-058c-4218-9a25-6c154e7fac22","title":"Fall 2025 College of Informatics Capstone Design Competition","subtitle":"Korea University · Top Excellence Award","period":"2025-12","description":"","details":[],"url":"$undefined"},{"id":"8bb2a908-4067-4e49-b952-7247d0d8e5af","title":"UNI-CON, Software-Centered University Program","subtitle":"Korea University · Silver Prize","period":"2025-09","description":"","details":[],"url":"$undefined"},{"id":"17cafc0a-91ed-451a-960f-4e7486700843","title":"RE:ALTHON","subtitle":"Google Developer Groups · Grand Prize","period":"2024-12","description":"","details":[],"url":"$undefined"},{"id":"f1353888-8e65-4059-8897-c956024bc394","title":"2024 KU College of Informatics Datathon InThon","subtitle":"Korea University · Gold Prize","period":"2024-11","description":"","details":[],"url":"$undefined"}]}],"posts":[{"category":"생각과 기록","content":"$15","created_at":"2026-11-09T17:32:19.136158+00:00","excerpt":"","id":"e1f3896e-936f-4c21-aeef-a8a50c09597c","published_at":"2026-11-10T17:14:55.504567+00:00","slug":"note-mw9jgrh4","status":"published","tags":[],"title":"감사 (感謝)","updated_at":"2026-11-10T17:15:34.425368+00:00","visibility":"public"},{"category":"생각과 기록","content":"$16","created_at":"2026-11-05T16:12:40.713145+00:00","excerpt":"","id":"e3da7560-53e0-4e43-9c27-ba711af9fccb","published_at":"2026-11-06T08:32:00.042648+00:00","slug":"note-mw3quvij","status":"published","tags":[],"title":"철학과 종교","updated_at":"2026-11-09T09:27:09.785756+00:00","visibility":"public"},{"category":"생각과 기록","content":"$17","created_at":"2026-11-01T10:20:58.318631+00:00","excerpt":"domain agnostic ability","id":"e92c0005-fca2-4d63-beb7-b9b7b2ad9a88","published_at":"2026-11-01T11:11:32.647732+00:00","slug":"note-mw3ea8hj","status":"published","tags":[],"title":"메타 (Meta)","updated_at":"2026-11-09T09:27:09.668306+00:00","visibility":"public"}]}],false]}],"$L18"]}]]}]
+이 능력들은 지식과 경험으로 이루어지는 것이 아니라, **태도와 반복**을 통해 자신을 서서히 물들여 가는 과정에서 비롯된다.
+6:["$","div",null,{"className":"shell","style":{"--bg":"#f3f3f0","--fg":"#111111","--sidebar-width":"248px","--content-width":"992px"},"children":[["$","a",null,{"className":"skip","href":"#main-content","children":"Skip to main content"}],["$","$L11",null,{"children":[["$","div",null,{"className":"brand","children":[["$","$L5",null,{"href":"/","children":["$","strong",null,{"children":["$","$L12",null,{"field":"site/name","value":"Jaeheon Song","label":"이름","linkLab":false}]}]}],["$","$L12",null,{"field":"site/affiliation","value":"SNUVL","label":"소속"}]]}],["$","nav",null,{"className":"nav","aria-label":"Main navigation","children":["$","ul",null,{"children":[["$","li","home",{"children":["$","$L5",null,{"href":"/","aria-current":"page","children":"Home"}]}],["$","li","cv",{"children":["$","$L5",null,{"href":"/cv","aria-current":"$undefined","children":"CV"}]}],["$","li","blog",{"children":["$","$L5",null,{"href":"/blog","aria-current":"$undefined","children":"Notes"}]}]]}]}],["$","ul",null,{"className":"contacts","aria-label":"Contact links","children":[["$","li","LinkedIn",{"children":["$","a",null,{"href":"https://www.linkedin.com/in/thdwogjs/","className":"$undefined","children":["LinkedIn",["$","svg",null,{"className":"external-link-icon","viewBox":"0 0 16 16","width":"12","height":"12","fill":"none","stroke":"currentColor","strokeWidth":"1.4","aria-hidden":"true","children":["$","path",null,{"d":"M6 3H3v10h10v-3M8 2h6v6M14 2 7 9"}]}]]}]}],["$","li","Email",{"children":["$","a",null,{"href":"mailto:dreameerbb@gmail.com","className":"$undefined","children":["dreameerbb@gmail.com",false]}]}]]}]]}],["$","div",null,{"className":"col","children":[["$","$L13",null,{"interactive":true}],["$","main",null,{"id":"main-content","className":"main","tabIndex":-1,"children":[["$","$L14",null,{"site":{"affiliation":"SNUVL","email":"dreameerbb@gmail.com","github_url":"","introduction":"I am a research intern in Professor Gunhee Kim’s Vision & Learning Lab (SNUVL) at Seoul National University, where I am mentored by Wonkwang Lee. My research focuses on vision-language models and world models. I am particularly interested in how these models learn to understand visual environments and predict how they evolve.\n\nAlongside my research, I share research notes and occasional reflections on life beyond the lab.","layout":{"background":"#f3f3f0","blocks":[{"align":"left","body_size":17,"column":1,"hidden":false,"id":"intro","kind":"intro","label":"Introduction","min_height":0,"padding":0,"span":12,"text":"","title_size":52},{"align":"left","body_size":15,"column":1,"hidden":false,"id":"interests","kind":"interests","label":"Research\ninterests","min_height":0,"padding":0,"span":12,"text":"","title_size":13},{"align":"left","body_size":15,"column":1,"hidden":false,"id":"records","kind":"records","label":"Education & Awards","min_height":0,"padding":0,"span":12,"text":"","title_size":13},{"align":"left","body_size":15,"column":1,"hidden":false,"id":"writing","kind":"writing","label":"Writing","min_height":0,"padding":0,"span":12,"text":"","title_size":13}],"content_width":992,"foreground":"#111111","gap":36,"overrides":{"record/ef365d33-5fd0-4b90-b5c1-fa4463c2f598/description":"GPA: 4.11 / 4.5 · Early graduation"},"sidebar_width":248,"version":1},"name":"Jaeheon Song","research_interests":["Vision-Language Models","World Models"],"role":"SNUVL Intern","scholar_url":"","linkedin_url":"https://www.linkedin.com/in/thdwogjs/"},"featured":[{"id":"educations","title":"Education","entries":[{"id":"ce988a94-b145-431e-a1a3-d20e05725d40","title":"King's College London","subtitle":"Exchange Student, Artificial Intelligence (Completed)","period":"2026-02 – 2026-02","description":"","details":[],"url":"$undefined"},{"id":"ef365d33-5fd0-4b90-b5c1-fa4463c2f598","title":"Korea University","subtitle":"Bachelor in Computer Science and Engineering & Mathematics (Double Major)","period":"2023-03 – 2026-08","description":"GPA: 4.11 / 4.5","details":[],"url":"$undefined"}]},{"id":"awards","title":"Honors & Awards","entries":[{"id":"2a4f5f84-975a-46b1-940a-345891e1b481","title":"KOSCOM AI agent challenge","subtitle":"KOSCOM · Top Excellence Award","period":"2025-12","description":"","details":[],"url":"$undefined"},{"id":"0b7fb36d-058c-4218-9a25-6c154e7fac22","title":"Fall 2025 College of Informatics Capstone Design Competition","subtitle":"Korea University · Top Excellence Award","period":"2025-12","description":"","details":[],"url":"$undefined"},{"id":"8bb2a908-4067-4e49-b952-7247d0d8e5af","title":"UNI-CON, Software-Centered University Program","subtitle":"Korea University · Silver Prize","period":"2025-09","description":"","details":[],"url":"$undefined"},{"id":"17cafc0a-91ed-451a-960f-4e7486700843","title":"RE:ALTHON","subtitle":"Google Developer Groups · Grand Prize","period":"2024-12","description":"","details":[],"url":"$undefined"},{"id":"f1353888-8e65-4059-8897-c956024bc394","title":"2024 KU College of Informatics Datathon InThon","subtitle":"Korea University · Gold Prize","period":"2024-11","description":"","details":[],"url":"$undefined"}]}],"posts":[{"category":"생각과 기록","content":"$15","created_at":"2026-11-09T17:32:19.136158+00:00","excerpt":"","id":"e1f3896e-936f-4c21-aeef-a8a50c09597c","published_at":"2026-11-10T17:14:55.504567+00:00","slug":"note-mw9jgrh4","status":"published","tags":[],"title":"감사 (感謝)","updated_at":"2026-11-10T17:15:34.425368+00:00","visibility":"public"},{"category":"생각과 기록","content":"$16","created_at":"2026-11-05T16:12:40.713145+00:00","excerpt":"","id":"e3da7560-53e0-4e43-9c27-ba711af9fccb","published_at":"2026-11-06T08:32:00.042648+00:00","slug":"note-mw3quvij","status":"published","tags":[],"title":"철학과 종교","updated_at":"2026-11-09T09:27:09.785756+00:00","visibility":"public"},{"category":"생각과 기록","content":"$17","created_at":"2026-11-01T10:20:58.318631+00:00","excerpt":"domain agnostic ability","id":"e92c0005-fca2-4d63-beb7-b9b7b2ad9a88","published_at":"2026-11-01T11:11:32.647732+00:00","slug":"note-mw3ea8hj","status":"published","tags":[],"title":"메타 (Meta)","updated_at":"2026-11-23T16:40:54.296197+00:00","visibility":"public"}]}],false]}],"$L18"]}]]}]
 18:["$","footer",null,{"className":"foot","children":["© ","Jaeheon Song"]}]
 c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 8:null
